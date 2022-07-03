@@ -37,6 +37,8 @@ public class UserRegistration {
 
         Pattern pattern = Pattern.compile(phonePattern);
         return pattern.matches(phonePattern,phNumber);
+
+
     }
 
 
@@ -44,5 +46,7 @@ public class UserRegistration {
         Pattern pattern = Pattern.compile(passwordPattern);
         return pattern.matches(passwordPattern,password);
 
+
+        
     }
 }
